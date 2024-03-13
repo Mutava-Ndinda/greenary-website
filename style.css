@@ -57,3 +57,16 @@
     display: grid;
     grid-template-columns: 50%50%;
 }
+#div8{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#footer{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#div9{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}  
+}
