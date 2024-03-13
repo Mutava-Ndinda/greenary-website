@@ -1,0 +1,59 @@
+@media (min-width:412px)and (max-width:1200px) {
+    #topbar{
+        display: grid;
+        grid-template-columns: 50%50%;
+        width: 80%;
+        font-size:12px;
+        gap: 50px;
+    } 
+    #img1{
+        width: 60%;
+    }
+
+    #firstdiv{
+        display: grid;
+        grid-template-columns: 50%50%;
+        width: 40%;
+    }
+    body{
+        font-size: 12px;
+    }
+
+}
+#topbar{
+    display: grid;
+    grid-template-columns: 50%50%;
+}
+
+#firstdiv{
+    display: grid;
+    grid-template-columns: 50%50%;
+}
+#img1{
+    width: 60%;
+}
+
+#thirddiv{
+    display: grid;
+    grid-template-columns: 50%50%;
+}
+#secdiv{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+#fourthdiv{
+    display: grid;
+    grid-template-columns: repeat(3,2fr);
+}
+#fivethdiv{
+    display: grid;
+    grid-template-columns: 50%50%;
+}
+#sixthdiv{
+    display: grid;
+    grid-template-columns: repeat(4,3fr);
+}
+#sevdiv{
+    display: grid;
+    grid-template-columns: 50%50%;
+}
